@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .wrapper{
+    padding: 0 ;
+    height: 500px;
+    width: 700px;
+    margin-top: 100px;
+    border: 2px solid grey;
+    /* position: relative; */
+    background:  #d8a;
+    border-radius: 20px;
+  }
+  .box{
+    width: 550px;
+    height: 80px;
+    border: 2px solid grey;
+    margin: 20px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 20px rgb(179, 206, 28);
+    font-size: 30px;
+  }
+  .dot{
+    height: 200px;
+    width: 200px;
+    border: 2px solid grey;
+    background: none;
+    border-radius: 100px;
+    margin-left: 50px;
+    margin-top: -100px;
+  }
+  img{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px ;
+    object-fit: cover;
+  }
+  .login{
+    width: 350px;
+    height: 80px;
+    margin-left: 20px;
+    /* background: rgba(255, 255, 255, 0.933); */
+    border-radius: 25px;
+    /* box-shadow: 5px 5px 20px rgb(179, 206, 28); */
+    font-size: 30px;
+    cursor: pointer;
+    opacity: 70%0;
+  }
+.error::placeholder{
+    color: red;
+}
+.error_e{
+    border-color: red;
+}
+.mess_error{
+    color: red;
+}
+.messi_error{
+    color: rgb(100, 157, 43);
+}
+.word{
+    font-weight: bolder;
+    font-size: x-large;
+    float: bottom;
+}
